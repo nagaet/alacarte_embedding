@@ -3,6 +3,7 @@ Python implementation of A La Carte Embedding
 
 以下のように実行します。
 
+```
 text = word2vec.Text8Corpus ("ja.text8.txt")   # このファイルは **https://github.com/Hironsan/ja.text8 ** で取得しました。
 w2v = word2vec.Word2Vec (text, vector_size=100, min_count=10, window=10)
 
@@ -21,3 +22,4 @@ print(alc.most_similar("信濃", topn=10))
 # 学習したA La Carte Embeddingをsave()で保存します。
 alc.save("model/alacarte_embedding.txt")
 print("\nALaCarte Embedding model saved to model/alacarte_embedding.txt")
+```
