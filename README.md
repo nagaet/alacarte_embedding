@@ -1,6 +1,9 @@
 # A La Carte Embedding
 Python implementation of A La Carte Embedding
 
+https://yag-ays.github.io/project/alacarte/
+の実装 https://github.com/yagays/alacarte_embedding/blob/master/src/alacarte.py を修正しました。
+
 以下のように実行します。
 
 ```
