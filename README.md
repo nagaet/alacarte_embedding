@@ -7,6 +7,8 @@ https://yag-ays.github.io/project/alacarte/
 以下のように実行します。
 
 ```
+from gensim.models import word2vec
+
 text = word2vec.Text8Corpus ("ja.text8.txt")   # このファイルは **https://github.com/Hironsan/ja.text8 ** で取得しました。
 w2v = word2vec.Word2Vec (text, vector_size=100, min_count=10, window=10)
 
